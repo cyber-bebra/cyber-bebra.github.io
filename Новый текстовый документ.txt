@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+  </head>
+ 
+  <body>
+  
+    <ul class="navbar">
+      <li>Головна    </li>
+      <li>Новини    
+        <ul>
+            <li>Новини1</li>
+            <li>Новини2</li>
+            <li>Новини3</li>
+          </ul>
+    </li>
+      <li>Контакти
+        <ul>
+          <li>Адрес</li>
+          <li>Телефон</li>
+          <li>Email</li>
+        </ul>
+      </li>
+      <li>О нас</li>
+    </ul>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.navbar ul{
+  display: none;
+  background-color: #f90;
+  position: absolute;
+  top: 100%;
+}
+.navbar li:navbar ul { display: block; }
+.navbar, .navbar ul{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.navbar {
+  height: 30px;
+  background-color: #666;
+  padding-left: 25px;
+}
+.navbar li {
+  float: left;
+  position: relative;
+  height: 100%;
+}
+.navbar li {
+  display: block;
+  width: 100px;
+  color: #fff;
+  text-decoration: none;
+  text-align: center; 
+}
+.navbar li:hover { 
+  background-color: #f90; 
+}
+.navbar ul li:hover {
+   background-color: #666;
+}
+
+
+
+
